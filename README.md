@@ -5,7 +5,7 @@ This project provides a simple MCP (Multi-Client Protocol) implementation that d
 ## Prerequisites
 
 - Python 3.12+
-- Python package manager (e.g., `uv`) # suggestion
+- Python package manager (e.g., `uv`) # suggested
 
 ## Installation
 
@@ -25,6 +25,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3. Install the required dependencies:
 ```bash
+pip install -r pyproject.toml # using pip
 uv run pip install -r pyproject.toml # using uv
 ```
 
@@ -44,11 +45,3 @@ python scripts/test_simple_mcp.py
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
